@@ -12,7 +12,7 @@ export const AddTodoForm: React.FC<AddFormTodoProps> = ({
   value
 }) => {
   return (
-    <Form className="w-100" action="">
+    <Form className="w-94" action="">
       <div className="flex">
         <Input
           className="flex-grow-1"

@@ -4,10 +4,9 @@ import { AddTodoForm } from "./addTodoForm";
 import { Container, List, Grid, Header } from "semantic-ui-react";
 
 const initialTodos: Array<Todo> = [
-  { text: "todo1", complete: false },
-  { text: "Attract life of your dream", complete: false },
-  { text: "Dream Big", complete: false },
-  { text: "Concentrate your attention", complete: false }
+  { text: "Sample To-do", complete: false },
+  { text: "Stay home", complete: false },
+  { text: "Don't go out", complete: false }
 ];
 const App: React.FC = () => {
   const [state, setState] = useState(initialTodos);
