@@ -1,0 +1,41 @@
+.complete {
+    text-decoration: line-through;
+    color: green;
+}
+
+.label {
+    padding: 10px;
+}
+
+.wrapper {
+    padding: 200px 0px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+i {
+    cursor: pointer;
+}
+
+.landing {
+    animation: landing 0.2s linear forwards;
+}
+
+.trash:hover {
+    color: red;
+}
+
+.edit:hover {
+    color: #00b5ad;
+}
+
+@keyframes landing {
+    0% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+}

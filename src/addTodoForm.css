@@ -1,0 +1,12 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
